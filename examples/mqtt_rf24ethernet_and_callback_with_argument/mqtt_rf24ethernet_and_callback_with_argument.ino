@@ -6,7 +6,8 @@
  *  explores one of many possibilities how the design may look like. 
  *
  *  Steps to remember:
- *      1. Setup your transport layer (RF24 in this case)
+ *      1. Setup your transport layer (RF24 in this case - RF24Gateway is running
+ *         on a Begale Bone Black which routes data to MQTT broker)
  *      2. Instantiate handlers for desired topic and aggregate them into a
  *         container object
  *      3. Create PubSub client instance - pass pointer to a callback function
